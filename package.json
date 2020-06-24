@@ -1,0 +1,26 @@
+{
+  "name": "imay-cli-nodejs",
+  "version": "1.0.1",
+  "description": "Node.jsでコマンドを作ろう。オプション引数を解析。",
+  "main": "lib/index.js",
+  "bin": {
+    "mycommand": "bin/mycommand-simple.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "scripts/"
+  ],
+  "scripts": {
+    "test": "scripts/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/big-stream/imay-cli-nodejs"
+  },
+  "author": {
+    "name": "big-stream"
+  },
+  "license": "The Unlicense",
+  "dependencies": {}
+}
